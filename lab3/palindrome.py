@@ -1,7 +1,7 @@
 #change 1
 
 my_str = input("Enter a string: ")
-
+#change 2
 my_str = my_str.casefold()
 
 rev_str = reversed(my_str)
