@@ -13,7 +13,7 @@ stringlen = len(string)
 j = stringlen
 
 print(stringlen)
-
+#reverses the string into the stringrev
 for i in range(0, stringlen):
 
   stringrev += string[j - 1]
@@ -21,6 +21,9 @@ for i in range(0, stringlen):
 
 
 print(stringrev)
+#makes both lower case so that it can compare wothout case
+stringrev = stringrev.casefold()
+string = string.casefold()
 
 if(string == stringrev):
   print("Is a palindrome")
