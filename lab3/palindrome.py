@@ -1,12 +1,12 @@
 #change 1
 
-my_str = input("Enter a string: ")
+str = input("Please enter a string: ")
 #change 2
-my_str = my_str.casefold()
+str = str.casefold()
 #change 3
-rev_str = reversed(my_str)
+reverse_str = reversed(str)
 
-if list(my_str) == list(rev_str):
-   print("It is palindrome")
+if list(str) == list(reverse_str):
+   print("Palindrome!")
 else:
-   print("It is not palindrome")
+   print("Not a Palindrome.")
