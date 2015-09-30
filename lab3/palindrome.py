@@ -1,16 +1,23 @@
 
 # Input function lets you input a string into the variable
 string = input("Please enter a string: ")
-count = 0
+i = 0
+
+stringrev = ""
 
 #print prints to the console
 print(string)
 
-stringlen = len(string )
+stringlen = len(string)
+
+j = stringlen
 
 print(stringlen)
 
-for i  in range(0, stringlen):
-  count = count + 1
+for i in range(0, stringlen):
 
-print(count)
+  stringrev += string[j - 1]
+  j = j - 1
+
+
+print(stringrev)
