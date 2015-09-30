@@ -1,7 +1,7 @@
 month = [31,28,31,30,31,30,31,31,30,31,30,31]
 day = 1
 year = 1901
-sunday = 2
+sunday = 1
 count = 0
 i = 0
 
@@ -10,7 +10,7 @@ daycount = 0
 monthcount = 0;
 yearcount = 0;
 
-for year in range(1901,2000):
+for year in range(1900,2000):
 
   yearcount = yearcount + 1
   #print(year)
