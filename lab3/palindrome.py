@@ -3,7 +3,7 @@
 my_str = input("Enter a string: ")
 #change 2
 my_str = my_str.casefold()
-
+#change 3
 rev_str = reversed(my_str)
 
 if list(my_str) == list(rev_str):
