@@ -21,3 +21,8 @@ for i in range(0, stringlen):
 
 
 print(stringrev)
+
+if(string == stringrev):
+  print("Is a palindrome")
+else:
+  print("Not a palindrome")
